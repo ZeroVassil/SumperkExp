@@ -4,7 +4,7 @@ body{
     font-family: "DM Sans";
 }
 #logo{
-    width: 10%;
+    width: 4%;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -50,7 +50,7 @@ footer{
 #boldFooter{
     font-weight: bold;
 }
-#ServicesInfo{
+#VisitInfo{
     padding: 5%;
 }
 #nadpisMain{
@@ -58,4 +58,39 @@ footer{
 }
 #podnadpisMain{
     font-size: 1.5em;
+}
+#aboutButton{
+    background-color: white;
+    border: solid 1px white;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+#aboutButton:hover{
+    background-color: #181A16;
+    border: solid 1px white;
+    color: white;
+    transition: 0.2s;
+}
+#visitButton{
+    background-color: #181A16;
+    border: solid 1px #181A16;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+#visitButton:hover{
+    background-color: white;
+    border: solid 1px #181A16;
+    color: #181A16;
+    transition: 0.2s;
+}
+.NadpisyWanna{
+    color: #FD0054;
 }
