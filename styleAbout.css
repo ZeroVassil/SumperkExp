@@ -48,3 +48,23 @@ span{
     color: white;
     padding: 5%;
 }
+#infoPeople{
+    padding: 5%;
+}
+.ProfilePic{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.Role{
+    color: #b4b4b4;
+    text-align: center;
+}
+.Name {
+    color: #181A16;
+    text-align: center;
+}
+.Profil{
+    margin: 5%;
+}
