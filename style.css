@@ -12,8 +12,8 @@ body{
 .LinkyNav{
     text-decoration: none;
     color: black;
-    margin: 20px;
-    font-size: 16px;
+    margin: 1.25em;
+    font-size: 1em;
 }
 .LinkyNav:hover{
     color: #FD0054;
@@ -30,8 +30,8 @@ nav{
 }
 #hlavniMenu{
     text-align: center;
-    margin-top: 21%;
-    margin-bottom: 21%;
+    margin-top: 15%;
+    margin-bottom: 25%;
 }
 span{
     color: #FD0054;
@@ -52,4 +52,10 @@ footer{
 }
 #ServicesInfo{
     padding: 5%;
+}
+#nadpisMain{
+    font-size: 2.25em;
+}
+#podnadpisMain{
+    font-size: 1.5em;
 }
