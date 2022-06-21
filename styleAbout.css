@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body{
+    margin: 4%;
+    font-family: "DM Sans";
+}
+#logo{
+    width: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.LinkyNav{
+    text-decoration: none;
+    color: black;
+    margin: 1.25em;
+    font-size: 1em;
+    transition: color 0.2s ease-out 100ms;
+}
+.LinkyNav:hover{
+    color: #FD0054;
+    transition: 0.2s;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-top: 4%;
+}
+#linkAbout{
+    font-weight: bold;
+}
+#hlavniMenu{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+#nadpisMain{
+    font-size: 2.25em;
+}
+#podnadpisMain{
+    font-size: 1.5em;
+}
+span{
+    color: #FD0054;
+}
+#AboutStory{
+    background-color: #181A16;
+    color: white;
+    padding: 5%;
+}
