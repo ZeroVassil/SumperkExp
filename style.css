@@ -14,11 +14,42 @@ body{
     color: black;
     margin: 20px;
     font-size: 16px;
-
+}
+.LinkyNav:hover{
+    color: #FD0054;
+    transition: 0.2s;
 }
 nav{
     margin-left: auto;
     margin-right: auto;
     display: table;
     margin-top: 4%;
+}
+#linkHome{
+    font-weight: bold;
+}
+#hlavniMenu{
+    text-align: center;
+    margin-top: 21%;
+    margin-bottom: 21%;
+}
+span{
+    color: #FD0054;
+}
+#AboutInfo{
+    background-color: #181A16;
+    color: white;
+    padding: 5%;
+}
+footer{
+    background-color: #181A16;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+#boldFooter{
+    font-weight: bold;
+}
+#ServicesInfo{
+    padding: 5%;
 }
