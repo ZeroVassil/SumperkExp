@@ -58,7 +58,7 @@ span{
     display: table;
 }
 .Role{
-    color: #B4B4B4;
+    color: #b4b4b4;
     text-align: center;
 
 }
@@ -68,4 +68,22 @@ span{
 }
 .Profil{
     margin: 5%;
+}
+footer{
+    background-color: #181A16;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+#boldFooter{
+    font-weight: bold;
+}
+.Arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.Down {
+    transform: rotate(45deg);
 }
