@@ -1,10 +1,8 @@
-function scrollDown(yValue = 880){
-  absoluteY = window.scrollY;
-  window.scrollTo({
-    top: absoluteY + yValue,
-    left: 0,
-    behavior: "smooth"
-  });
+function scrollDown(objectId){
+  var object = document.getElementById(objectId);
+  object.scrollIntoView({
+    behavior: "smooth",
+  })
 }
 
 function scrollUp(yValue = 0){
