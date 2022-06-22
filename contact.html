@@ -11,18 +11,18 @@
 <body>
 <img src="Images/SumperkExpLogoLong.png" id="logo" alt="logo">
 <nav>
-    <a href="" id="linkHome" class="LinkyNav">Home</a>
+    <a href="index.html" id="linkHome" class="LinkyNav">Home</a>
     <a href="" id="linkVisit" class="LinkyNav">Visit</a>
-    <a href="" id="linkAbout" class="LinkyNav">About</a>
-    <a href="" id="linkContact" class="LinkyNav">Contact</a>
+    <a href="about.html" id="linkAbout" class="LinkyNav">About</a>
+    <a href="contact.html" id="linkContact" class="LinkyNav">Contact</a>
 </nav>
 <div id="hlavniMenu">
-    <h1 id="nadpisMain">Contact us</h1>
-    <button onclick="scrollDown();">down</button>
+    <h1 id="nadpisMain">Get in touch</h1>
+    <p id="podnadpisMain">Offline & online <span id="podtrzeni">contacts</span>.</p>
+    <i class="Arrow Down" onclick="scrollDown(`ContactInfo`)"></i>
 </div>
 
 <div id="ContactInfo">
-  <table id="Contacts" style="width: 100%">
     <h2>Contacts</h2>
     <br>
     <div id="ContactBlock">
@@ -39,8 +39,6 @@
     </div>
 </div>
 
-<button onclick="scrollUp(500);">up</button>
-<button onclick="scrollUp();">upFull</button>
 <footer>
     <p id="boldFooter">Made by students of VOŠ a SPŠ Šumperk</p>
     <p>©2022</p>

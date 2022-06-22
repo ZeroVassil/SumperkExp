@@ -25,7 +25,7 @@ nav{
     display: table;
     margin-top: 4%;
 }
-#linkHome{
+#linkContact{
     font-weight: bold;
 }
 #hlavniMenu{
@@ -50,7 +50,7 @@ footer{
 #boldFooter{
     font-weight: bold;
 }
-#VisitInfo{
+#ContactInfo{
     padding: 5%;
 }
 #nadpisMain{
@@ -96,5 +96,17 @@ footer{
 }
 
 #ContactBlock{
-  margin-left: 2em;
+    margin-left: 2em;
+}
+#podtrzeni{
+    color: #FD0054;
+}
+.Arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.Down {
+    transform: rotate(45deg);
 }
