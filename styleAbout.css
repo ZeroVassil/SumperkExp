@@ -87,3 +87,47 @@ footer{
 .Down {
     transform: rotate(45deg);
 }
+@media only screen and (max-device-width : 640px){
+    body{
+        margin: 6%;
+    }
+    #logo{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Image{
+        width: 100%;
+    }
+    #hlavniMenu{
+        text-align: center;
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
+}
+@media only screen
+and (min-device-width : 641px)
+and (max-device-width : 1007px) {
+    body{
+        margin: 5%;
+    }
+    #logo{
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Image{
+        width: 100%;
+    }
+    #hlavniMenu{
+        text-align: center;
+        margin-top: 55%;
+        margin-bottom: 55%;
+    }
+}
