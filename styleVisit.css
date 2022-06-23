@@ -102,6 +102,7 @@ footer{
 }
 .Description{
     width: 50%;
+    color: #b4b4b4;
 }
 @media only screen and (max-device-width : 640px){
     body{
@@ -122,6 +123,9 @@ footer{
         text-align: center;
         margin-top: 50%;
         margin-bottom: 50%;
+    }
+    .Description{
+        width: 100%;
     }
 }
 @media only screen
@@ -145,5 +149,8 @@ and (max-device-width : 1007px) {
         text-align: center;
         margin-top: 55%;
         margin-bottom: 55%;
+    }
+    .Description{
+        width: 100%;
     }
 }
